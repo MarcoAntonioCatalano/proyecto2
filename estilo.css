@@ -1,0 +1,20 @@
+.main {
+    width: 50%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+.central {
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.canalla {
+    background: url("https://i.pinimg.com/originals/c7/0d/4a/c70d4ad2c3ff21c64861f32cb76e786d.png");
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
