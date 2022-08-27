@@ -1,4 +1,48 @@
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+}
+.info {
+    width: 80%;
+    height: fit-content;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+}
+.logo {
+    background: url('logo.png');
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: left;
+    border: 0 auto;
+}
+.navbar {
+    overflow: hidden;
+    background-color: palevioletred;
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+    height: 100px;
+  }
+.navbar a {
+    float: left;
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.navbar a:hover {
+    background: #ddd;
+    color: goldenrod;
+  }
 .main {
+    margin-top: 30px;
     width: 50%;
     height: 1000px;
     margin: 0 auto;
@@ -10,7 +54,7 @@
     object-fit: cover;
 }
 .canalla {
-    background: url("https://i.pinimg.com/originals/c7/0d/4a/c70d4ad2c3ff21c64861f32cb76e786d.png");
+    background: img("ani.jpg");
     width: 50%;
     height: 500px;
     margin: 0 auto;
