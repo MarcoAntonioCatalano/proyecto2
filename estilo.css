@@ -1,94 +1,75 @@
 .header {
     width: 100%;
-    height: 200px;
-    background-color: pink;
+    height: 150px;
+    background-color: forestgreen;
 }
 .info {
-    width: 80%;
-    height: fit-content;
     font-size: 40px;
-    font-weight: 500;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    align-content: center;
-    margin: auto 10%;
+    justify-content: space-between;
 }
 .logo {
     background: url('logo.png');
     width: 200px;
-    height: 192px;
-    margin: 0 auto;
+    height: 200px;
     background-size: contain;
     background-position: left;
-    border: 2px solid pink;
-    border-radius: 5px;
+   margin-left: 10%;
+
 }
 .navbar {
-    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
     background-color: palevioletred;
-    position: sticky;
-    top: 0; 
-    width: 100%; 
-    height: 100px;
-    border-radius: 5px;
-    border: 2px solid pink;
+    width: 80%;
+    height: 80%;
+    margin-right: 10%;
   }
 .navbar a {
-    float: left;
-    display: block;
-    color: goldenrod;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 275px;
-    margin-right: 0px;
-    padding: 14px 16px;
+    color: grey;
     text-decoration: none;
+    padding: 65px;
   }
 .navbar a:hover {
-    background: #ddd;
-    color: goldenrod;
+    background: pink;
+    color: grey;
     border-radius: 10px;
   }
 .main {
     width: 100%;
-    height: 850;
-    margin: 0 auto;
-    background-color: pink;
+    height: 600px;
+    background-color: teal;
 }
 .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 0px;
+        grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: minmax(200px, auto);
         text-align: center;
 }
 .grid-item1 {
     grid-column: 1 / 3;
-    grid-row: 1 / 4;
-    background-color: lightpink;
-    background-size: contain;
-    margin-left: 20%;
+    grid-row: 1 / 3;
 }
 .texto1 {
   font-size: 50px;
   font-weight: 500;
-  color: goldenrod;
+  color: grey;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .texto2 {
   font-size: 40px;
-  color: goldenrod;
+  color: grey;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .texto3 {
   font-size: 25px;
-  color: goldenrod;
+  color: grey;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .texto4 {
     font-size: 15px;
     margin-top: 50px;
-    color: goldenrod;
+    color: grey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
 
@@ -105,27 +86,7 @@
     border-radius: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.grid-item2 {
-    grid-column: 3 / 5;
-    grid-row: 1 / 4;
-    background-color: lightpink;
-    background-size: contain;
-    margin-right: 20%;
-}
-.foto {
-    background: url('ani.jpg');
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 550px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: ;
-    margin-right: ;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .catálogo {
     width: 100%;
     height: 500px;
@@ -134,17 +95,11 @@
 .wrap {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0px;
-    grid-auto-rows: minmax(200px, auto);
 }
 .grid-item3 {
     grid-column: 1 / 5;
     grid-row: 1 / 3;
     background-color: pink;
-    margin-right: 10%;
-    margin-top: 0%;
-    margin-left: 10%;
-    margin-bottom: 0px;
 }
 .tiramisu {
     background: url('tiramisu.JPG');
@@ -187,17 +142,17 @@
 }
 .texto5 {
     font-size: 40px;
-    color: goldenrod;
+    color: grey;
     margin-left: 20%;
   }
   .texto6 {
     font-size: 40px;
-    color: goldenrod;
+    color: grey;
     margin-left: 19%;
   }
   .texto7 {
     font-size: 40px;
-    color: goldenrod;
+    color: grey;
     margin-left: 17.5%;
   }
   .footer {
@@ -206,12 +161,11 @@
     background-color: pink;
   }
   .last-wrap {
-    width: 80%;
+    width: 100%;
     height: 250px;
     background-color: lightpink;
     display: flex;
-    align-content: center;
-    margin: 0 auto;
+    align-content: space-between;
     border-radius: 10px;
   }
   .facebook {
@@ -234,3 +188,287 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+  .logo {
+    background: url('logo.png');
+    width: 149px;
+    height: 146px;
+    background-size: contain;
+    background-position: left;
+    border: 2px solid pink;
+
+}
+  .info{
+    width: 100%;
+    font-size: 15px;
+    background: aquamarine;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar a {
+    padding: 5px;
+  }
+  .main {
+    background-color: bisque;
+    height: 600px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: max-content;
+  grid-auto-rows: minmax(200px, auto);
+  text-align: center;
+}
+.grid-item1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    background-color: bisque;
+    background-size: contain;
+}
+.texto1 {
+font-size: 25px;
+font-weight: 600;
+color: grey;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texto2 {
+font-size: 20px;
+color: grey;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texto3 {
+font-size: 15px;
+color: grey;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texto4 {
+font-size: 12px;
+color: grey;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+}
+.email {
+max-width: 80%;
+color: grey;
+font-size: 15px;
+border: 1px solid pink;
+padding: 10px;
+margin: 0 auto;
+background-color: whitesmoke;
+border-radius: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.catálogo {
+  height: 300px;
+  width: ;
+  background-color: black;
+}
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(200px, auto);
+  text-align: center;
+  background-color: chocolate;
+}
+.grid-item3 {
+  grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    background-color: greenyellow;
+    background-size: contain;
+
+
+}
+.tiramisu {
+  background: url('tiramisu.JPG');
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.chaja {
+  background: url('chaja.JPG');
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.chocotorta {
+  background: url('chocolinas.jpeg');
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.texto-general {
+  display: flex;
+  flex-flow: row;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texto5 {
+  font-size: 16px;
+  color: grey;
+}
+.texto6 {
+  font-size: 16px;
+  color: grey;
+
+}
+.texto7 {
+  font-size: 16px;
+  color: grey;
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px){
+    .header {
+      width: 100%;
+      height: 150px;
+      background-color: blue;
+  }
+    .logo {
+      background: url('logo.png');
+      width: 149px;
+      height: 146px;
+      border: 2px solid pink;
+  
+  }
+    .info{
+      display: flex;
+      align-content: center;
+      font-size: 15px;
+      background: firebrick;
+    }
+  
+    .navbar{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .navbar a {
+      padding: 5px;
+    }
+    .main {
+      width: 100%;
+      height: 850;
+  }
+    .grid-container {
+      background-color: black;
+  
+  }
+  .grid-item1 {
+      grid-column: 1/ 5;
+      grid-row: 1 / 4;
+      background-color: bisque;
+  }
+  .texto1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .texto2 {
+  font-size: 20px;
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .texto3 {
+  font-size: 15px;
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .texto4 {
+  font-size: 12px;
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  }
+  .email {
+  max-width: 80%;
+  color: grey;
+  font-size: 15px;
+  border: 1px solid pink;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } 
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo {
+    background: url('logo.png');
+    width: 148px;
+    height: 146px;
+    background-size: contain;
+    background-position: left;
+    border: 2px solid pink;
+
+}
+  .info{
+    flex-direction: row;
+    font-size: 25px;
+    background: blue;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar a {
+    padding: 20px;
+  }
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .info{
+    flex-direction: row;
+    font-size: 40px;
+    background: green;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar a {
+    padding: 30px;
+
+  }
+  /*.grid-item2 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    background-color: lightpink;
+    background-size: contain;
+    margin-right: 20%;
+}
+.foto {
+    background: url('ani.jpg');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: ;
+    margin-right: ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
