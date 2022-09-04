@@ -20,7 +20,7 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    background-color: palevioletred;
+    background-color: lightpink;
     width: 80%;
     height: 80%;
     margin-right: 10%;
@@ -158,19 +158,12 @@
     width: 75px;
     height: 75px;
     background-size: contain;
-    margin-top: 4%;
-    margin-left: 900px;
-    margin-right: ;
-    margin-bottom: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .instagram {
     width: 80px;
     height: 80px;
     background-size: contain;
-    margin-top: 4%;
-    margin-left: 100px;
-    margin-bottom: 6%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
@@ -191,7 +184,7 @@
   .info{
     width: 100%;
     font-size: 16px;
-    background: aquamarine;
+    background: pink;
   }
 
   .navbar{
@@ -203,7 +196,7 @@
     padding: 6px;
   }
   .main {
-    background-color: magenta;
+    background-color: green;
     height: 600px;
 }
 .grid-container {
@@ -215,7 +208,7 @@
 .grid-item1 {
     grid-column: 1 / 6;
     grid-row: 1 / 4;
-    background-color: bisque;
+    background-color: pink;
     background-size: contain;
 }
 .texto1 {
@@ -253,13 +246,32 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 .catálogo {
   height: 300px;
-  background-color: black;
+  background-color: pink;
+}
+.grid-item2 {
+  display: none;
+  grid-column: 3 / 5;
+  grid-row: 1 / 4;
+  background-color: pink;
+  background-size: contain;
+  margin-right: 30%;
+}
+.image {
+  background: url("ani.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  max-width: 300px;
+  max-height: 360px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto auto;
 }
 .grid-item3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: minmax(180px, 190px);
-    background-color: greenyellow;
+    background-color: lightpink;
     background-size: contain;
     width: 80%;
     height: 80%;
@@ -344,7 +356,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   justify-content: space-evenly;
   width: 80%;
   height: 80%;
-  background-color: red;
+  background-color: lightpink;
   background-size: contain;
   border-radius: 10px;
   margin: auto auto;
@@ -381,7 +393,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     .info{
       width: 100%;
       font-size: 16px;
-      background: red;
+      background: pink;
     }
   
     .navbar{
@@ -393,7 +405,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
       padding: 6px;
     }
     .main {
-      background-color: magenta;
+      background-color: beige;
       height: 600px;
   }
   .grid-container {
@@ -405,7 +417,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   .grid-item1 {
       grid-column: 1 / 6;
       grid-row: 1 / 4;
-      background-color: bisque;
+      background-color: pink;
       background-size: contain;
   }
   .texto1 {
@@ -441,15 +453,34 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   border-radius: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+  .grid-item2 {
+    display: none;
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    background-color: pink;
+    background-size: contain;
+    margin-right: 30%;
+  }
+  .image {
+    background:url("ani.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    max-height: 360px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto auto;
+  }
   .catálogo {
     height: 300px;
-    background-color: black;
+    background-color: pink;
   }
   .grid-item3 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: minmax(180px, 190px);
-      background-color: greenyellow;
+      background-color: lightpink;
       background-size: contain;
       width: 80%;
       height: 80%;
@@ -534,7 +565,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content: space-evenly;
     width: 80%;
     height: 80%;
-    background-color: red;
+    background-color: lightpink;
     background-size: contain;
     border-radius: 10px;
     margin: auto auto;
@@ -557,7 +588,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
   }
   /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .logo {
     background: url('logo.png');
     width: 148px;
@@ -570,7 +601,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   .info{
     flex-direction: row;
     font-size: 25px;
-    background: blue;
+    background: pink;
   }
   .navbar{
     display: flex;
@@ -579,15 +610,34 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   .navbar a {
     padding: 20px;
   }
+  .grid-item2 {
+    display: none;
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    background-color: pink;
+    background-size: contain;
+    margin-right: 30%;
+  }
+  .image {
+    background: url('ani.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    max-height: 360px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto auto;
+  }
   .catálogo {
     height: 300px;
-    background-color: black;
+    background-color: pink;
   }
   .grid-item3 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: minmax(180px, 190px);
-      background-color: greenyellow;
+      background-color: lightpink;
       background-size: contain;
       width: 80%;
       height: 80%;
@@ -646,7 +696,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content: space-evenly;
     width: 80%;
     height: 80%;
-    background-color: red;
+    background-color: lightpink;
     background-size: contain;
     border-radius: 10px;
     margin: auto auto;
@@ -671,27 +721,6 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   
-  /*.grid-item2 {
-    grid-column: 3 / 5;
-    grid-row: 1 / 4;
-    background-color: lightpink;
-    background-size: contain;
-    margin-right: 20%;
-}
-.foto {
-    background: url('ani.jpg');
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 550px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: ;
-    margin-right: ;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
 .logo {
   background: url('logo.png');
   width: 148px;
@@ -704,7 +733,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .info{
   flex-direction: row;
   font-size: 40px;
-  background: green
+  background:pink;
 }
 .navbar{
   display: flex;
@@ -720,14 +749,19 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .grid-container {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 34%;
-text-align: center;
+text-align: justify;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 34%;
+  text-align: center;
 }
 .grid-item1 {
-  grid-column: 1 / 6;
-  grid-row: 1 / 4;
-  background-color: bisque;
-  background-size: contain;
+    grid-column: 1 / 6;
+    grid-row: 1 / 4;
+    background-color: pink;
+    background-size: contain;
 }
 .texto1 {
 font-size: 36px;
@@ -762,19 +796,37 @@ background-color: whitesmoke;
 border-radius: 10px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.grid-item2 {
+  display: none;
+  grid-column: 3 / 5;
+  grid-row: 1 / 4;
+  background-color: pink;
+  background-size: contain;
+  margin-right: 30%;
+}
+.image {
+  background: url('ani.jpg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  max-width: 300px;
+  max-height: 360px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto auto;
+}
 .catálogo {
   height: 300px;
-  background-color: black;
+  background-color: pink;
 }
 .grid-item3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(180px, 190px);
-    background-color: greenyellow;
+    grid-template-rows: minmax(180px, 180px);
+    background-color: lightpink;
     background-size: contain;
     width: 80%;
     height: 80%;
-    margin: auto auto;
     border-radius: 10px;
 }
 .tiramisu {
@@ -829,7 +881,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   justify-content: space-evenly;
   width: 80%;
   height: 80%;
-  background-color: red;
+  background-color: lightpink;
   background-size: contain;
   border-radius: 10px;
   margin: auto auto;
@@ -840,7 +892,6 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   background-size: contain;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto 0;
-
 }
 .instagram {
   width: 70px;
